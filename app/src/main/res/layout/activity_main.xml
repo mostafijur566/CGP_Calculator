@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/GradeSystem"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/action_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade System"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter expected grades for each course you are taking this smemster"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            />
+
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#D3D3D3"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Course Title"
+               android:textSize="20sp"
+               android:padding="15dp"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Credit"
+               android:textSize="20sp"
+               android:padding="10dp"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Grade"
+               android:textSize="20sp"
+               android:padding="15dp"
+               />
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 1"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 2"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 3"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 4"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 5"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 6"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Course 7"
+            android:textAlignment="center"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/credit7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="credit"
+            android:background="@drawable/edit_round"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_reset"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
